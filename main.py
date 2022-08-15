@@ -23,4 +23,3 @@ for i in range(10):
         pd.read_excel("Dados.xlsx", sheet_name=0, header=i, nrows=1, usecols=[6]),  # Email Institucional
         pd.read_excel("Dados.xlsx", sheet_name=0, header=i, nrows=1, usecols=[7])   # Matricula
     )
-    print(Estudante[i], "\n")
